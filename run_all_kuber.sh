@@ -1,10 +1,5 @@
 #!/bin/bash
-if [ -z "$1" ]
-  then
-    RESOURCES_FILE="resources.txt"
-else
-    RESOURCES_FILE=$1
-fi
+RESOURCES_FILE="resources.txt"
 
 echo "File: $RESOURCES_FILE"
 
